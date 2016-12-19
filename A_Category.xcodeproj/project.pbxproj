@@ -17,7 +17,6 @@
 		F543A90F1E027CE8006E8017 /* A_CategoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F543A90E1E027CE8006E8017 /* A_CategoryTests.m */; };
 		F543A91A1E027CE8006E8017 /* A_CategoryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F543A9191E027CE8006E8017 /* A_CategoryUITests.m */; };
 		F543A92A1E0280B7006E8017 /* CTMediator+A.m in Sources */ = {isa = PBXBuildFile; fileRef = F543A9291E0280B7006E8017 /* CTMediator+A.m */; };
-		F543A9851E03DAF5006E8017 /* AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F543A9841E03DAF5006E8017 /* AViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,8 +58,6 @@
 		F543A91B1E027CE8006E8017 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F543A9281E0280B7006E8017 /* CTMediator+A.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CTMediator+A.h"; sourceTree = "<group>"; };
 		F543A9291E0280B7006E8017 /* CTMediator+A.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+A.m"; sourceTree = "<group>"; };
-		F543A9831E03DAF5006E8017 /* AViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AViewController.h; sourceTree = "<group>"; };
-		F543A9841E03DAF5006E8017 /* AViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,20 +171,10 @@
 		F543A9271E028018006E8017 /* A_Category */ = {
 			isa = PBXGroup;
 			children = (
-				F543A9821E03DAD7006E8017 /* ViewController */,
 				F543A9281E0280B7006E8017 /* CTMediator+A.h */,
 				F543A9291E0280B7006E8017 /* CTMediator+A.m */,
 			);
 			path = A_Category;
-			sourceTree = "<group>";
-		};
-		F543A9821E03DAD7006E8017 /* ViewController */ = {
-			isa = PBXGroup;
-			children = (
-				F543A9831E03DAF5006E8017 /* AViewController.h */,
-				F543A9841E03DAF5006E8017 /* AViewController.m */,
-			);
-			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -378,7 +365,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F543A8FC1E027CE7006E8017 /* ViewController.m in Sources */,
-				F543A9851E03DAF5006E8017 /* AViewController.m in Sources */,
 				F543A92A1E0280B7006E8017 /* CTMediator+A.m in Sources */,
 				F543A8F91E027CE7006E8017 /* AppDelegate.m in Sources */,
 				F543A8F61E027CE7006E8017 /* main.m in Sources */,
